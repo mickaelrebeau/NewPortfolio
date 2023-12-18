@@ -40,7 +40,7 @@ export const About = () => {
 			<span className="hash-span" id="about">
 				&nbsp;
 			</span>
-			
+
 			<motion.div variants={textVariant(0.1)}>
 				<p className="text-slate-400 sm:text-[18px] text-[14px]">
 					Présentation
@@ -55,7 +55,7 @@ export const About = () => {
 				className="mt-4 text-slate-400 text-[17px] max-w-3xl leading-[30px]"
 			>
 				Passionné depuis mes 14ans par le monde de l'informatique, je suis
-				aujourd'hui un développeur évoluant princpalement dans l'écosystème
+				aujourd'hui un développeur évoluant principalement dans l'écosystème
 				Javascipt/Typescript via les frameworks React et NestJS mais également
 				dans le domaine du machine learning et de l'analyse de données via
 				Python. Vous pouvez me retrouver sur Twitch, où je code et réalise des
