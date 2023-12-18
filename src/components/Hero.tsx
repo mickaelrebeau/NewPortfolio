@@ -19,6 +19,24 @@ export const Hero = () => {
 					<p className="w-[320px] md:w-[600px] text-white text-xl">
 						Développeur React | NestJS | Django | Python.
 					</p>
+					<div className="mt-5 flex gap-5 z-50">
+						<a
+							className="px-6 py-3 rounded-sm border border-fuchsia-600 cursor-pointer hover:bg-fuchsia-600  hover:shadow-xl hover:shadow-pink-300/20"
+							href="https://www.linkedin.com/in/mickael-r%C3%A9beau/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Linkedin
+						</a>
+						<a
+							className="px-6 py-3 rounded-sm border border-fuchsia-600 cursor-pointer hover:bg-fuchsia-600  hover:shadow-xl hover:shadow-pink-300/20"
+							href="https://github.com/mickaelrebeau"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Github
+						</a>
+					</div>
 				</div>
 			</div>
 
