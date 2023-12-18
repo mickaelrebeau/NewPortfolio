@@ -23,7 +23,7 @@ function App() {
 
 function Layout() {
 	return (
-		<div className="w-screen h-screen">
+		<div className="w-screen h-screen overflow-x-hidden">
 			<div className="bg-cover bg-no-repeat bg-center">
 				<Navbar />
 				<Hero />
