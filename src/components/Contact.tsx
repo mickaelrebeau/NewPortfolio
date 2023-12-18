@@ -8,9 +8,9 @@ export const Contact = () => {
 				&nbsp;
 			</span>
 
-			<div className="p-10 w-[90%] md:w-full min-w-[300px] max-w-[800px] md:h-[500px] bg-black/10 backdrop-blur-[2px] rounded-xl border border-fuchsia-600/50 flex flex-col justify-between">
+			<div className="p-10 w-[90%] md:w-full min-w-[300px] max-w-[800px] md:h-[500px] bg-fuchsia-600/10 backdrop-blur-[2px] rounded-xl border border-fuchsia-600/50 flex flex-col justify-between">
 				<div className="flex flex-col gap-3">
-					<h2 className="text-6xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-fuchsia-400">
+					<h2 className="text-6xl font-semibold text-white">
 						Contact
 					</h2>
 

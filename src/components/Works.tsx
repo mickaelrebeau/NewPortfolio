@@ -24,10 +24,16 @@ const ProjectCard = ({
 	};
 	return (
 		<Tilt options={tiltOptions}>
-			<div className="p-4 relative border border-fuchsia-600 rounded-xl hover:shadow-lg hover:shadow-purple-400/25 overflow-hidden">
-				<img className="rounded-lg border border-fuchsia-600" src={image} alt="Projet" />
-				<div className="mt-4">
-					<p className="text-2xl hover:text-pink-400">{name}</p>
+			<div className="h-full p-4 relative border border-fuchsia-600 rounded-xl hover:shadow-lg hover:shadow-purple-400/25 overflow-hidden">
+				<img
+					className="rounded-lg border border-fuchsia-600"
+					src={image}
+					alt="Projet"
+				/>
+				<div className="mt-4 h-full">
+					<p className="font-semibold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-fuchsia-400">
+						{name}
+					</p>
 					<p className="mt-4 text-slate-400">{description}</p>
 					<div className="mt-4 flex flex-wrap gap-2">
 						{tags.map((tag) => (
@@ -42,7 +48,7 @@ const ProjectCard = ({
 				</div>
 				<a
 					href={source_code_link}
-					className="font-semibold text-2xl absolute top-0 left-0 flex flex-col items-center justify-center gap-2 md:gap-8 h-full min-h-[380px]: w-full bg-fuchsia-600/30 backdrop-blur card-hover overflow-auto"
+					className="px-3 font-semibold text-2xl text-center absolute top-0 left-0 flex flex-col items-center justify-center gap-2 md:gap-8 h-full min-h-[380px]: w-full bg-fuchsia-600/30 backdrop-blur card-hover overflow-auto"
 					target="_blank"
 					rel="noreferrer"
 				>
@@ -77,7 +83,7 @@ export const Works = () => {
 				profil Github pour en voir plus.
 			</motion.p>
 
-			<div className="mt-10 p-8 grid grid-cols-1 lg:grid-cols-2 gap-8 overflow-x-scroll">
+			<div className="mt-10 p-8 grid grid-cols-1 lg:grid-cols-2 gap-8 overflow-x-hiden">
 				{projects.map((project) => (
 					<ProjectCard key={project.name} {...project} />
 				))}

@@ -1,7 +1,19 @@
 import { technologies } from "@/constants/constants";
 import { textVariant } from "@/utils/motion";
 import { motion } from "framer-motion";
-import { BallCanvas } from "./canvas/Ball";
+
+const Skill = ({ icon, name }: { icon: string; name: string }) => {
+	return (
+		<div className="w-28 h-28 flex flex-col items-center justify-center gap-3">
+			<img
+				className="w-[50px] h-[50px] object-contain"
+				src={icon}
+				alt={name}
+			/>
+			<p className="text-slate-400 text-[14px]">{name}</p>
+		</div>
+	);
+}
 
 export function Skills() {
 	return (
@@ -13,10 +25,10 @@ export function Skills() {
 				</h2>
 			</motion.div>
 
-			<div className="mt-10 grid grid-cols-2 md:grid-cols-9 gap-4">
+			<div className="mt-10 grid grid-cols-2 md:grid-cols-8 gap-4">
 				{technologies.map((technology) => (
 					<div key={technology.name} className="w-28 h-28">
-						<BallCanvas icon={technology.icon} />
+						<Skill icon={technology.icon} name={technology.name}/>
 					</div>
 				))}
 			</div>

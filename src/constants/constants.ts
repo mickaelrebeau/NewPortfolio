@@ -1,4 +1,4 @@
-import { bootstrap, django, mongo, nest, postgre, python, react, symfony, tailwind } from "@/assets/logo";
+import { bootstrap, django, mongo, nest, postgre, python, react, tailwind } from "@/assets/logo";
 import {
 	front,
 	server,
@@ -59,10 +59,6 @@ const technologies = [
 	{
 		name: "Django",
 		icon: django,
-	},
-	{
-		name: "Symfony",
-		icon: symfony,
 	},
 	{
 		name: "Python",

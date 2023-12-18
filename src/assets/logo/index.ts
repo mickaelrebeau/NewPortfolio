@@ -6,7 +6,6 @@ import tailwind from './logos_tailwindcss.png'
 import python from './logos_python.png'
 import mongo from './logos_mongodb.png'
 import postgre from './logos_postgresql.png'
-import symfony from './logos_symfony.png'
 import github from './logo_github.png'
 import twitch from './logo_twitch.png'
 import linkedin from './logo_linkedin.png'
@@ -19,7 +18,6 @@ export {
   tailwind,
   django,
   nest,
-  symfony,
   postgre,
   mongo,
   python,

@@ -2,7 +2,7 @@ import { ComputersCanvas } from "./canvas/Computers";
 import { MoveDown } from "lucide-react";
 
 export const Hero = () => {
-  return (
+	return (
 		<section className="relative w-full h-screen mx-auto bg-[url('/src/assets/herobg.svg')] bg-cover">
 			<div className="absolute inset-0 top-[120px] max-w-5xl mx-auto px-4 flex items-start gap-5">
 				<div className="flex flex-col justify-center items-center mt-5">
@@ -26,9 +26,10 @@ export const Hero = () => {
 
 			<div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
 				<a href="#about">
+					<span className="sr-only">Flêche vers le bas</span>
 					<MoveDown className="w-10 h-10 text-fuchsia-400 hover:text-pink-300 animate-bounce" />
 				</a>
 			</div>
 		</section>
 	);
-}
+};
