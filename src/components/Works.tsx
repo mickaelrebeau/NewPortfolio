@@ -69,7 +69,7 @@ export const Works = () => {
 			<motion.div variants={textVariant(0.1)}>
 				<p className="text-slate-400 sm:text-[18px] text-[14px]">Projets</p>
 				<h2 className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-fuchsia-400 md:text-[54px] sm:text-[50px] xs:text-[40px] text-[30px]">
-					Les projets que j'ai fait.
+					Mes projets réalisés.
 				</h2>
 			</motion.div>
 
@@ -77,7 +77,7 @@ export const Works = () => {
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-slate-400 text-[17px] max-w-3xl leading-[30px]"
 			>
-				Vous retrouverez ici une liste non exaustive des porjets que j'ai pu
+				Vous retrouverez ici une liste non exaustive des projets que j'ai pu
 				concevoir. Ce sont les projets que je préfère et qui mettent en valeur
 				mes compétences. N'hésitez pas à les consulter et faire un tour sur mon
 				profil Github pour en voir plus.

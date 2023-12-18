@@ -84,7 +84,7 @@ const experiences = [
 		points: [
 			"Au sein d'une équipe de 4 développeurs, j'ai participé à concevoir et développer une plateforme de partage de données personnelles.",
 			"Ce projet, que nous avons nommé LP-LOL, en référence au jeu culte League of Legends, est développé dans un cadre microservices. ",
-			"Mes missions au sein de ce projet ont été la mise en place de l’authentification et de la gestion des profils utilisateurs, la réalisation de la maquette et le prototype du projet, la réalisation des interfaces d'authentification de la plateforme et la réalisation des interfaces d'authentification sur la version mobile de la plateforme",
+			"Mes missions au sein de ce projet ont été la mise en place de l’authentification et de la gestion des profils utilisateurs, la réalisation de la maquette et le prototype du projet, la réalisation des interfaces d'authentification de la plateforme et la réalisation des interfaces d'authentification sur la version mobile de la plateforme.",
 			"Stack: Bootstrap | React | Ionic | NestJs | Fatsify | Nats | Redis | MongoDB",
 		],
 	},
@@ -97,7 +97,7 @@ const experiences = [
 		points: [
 			"J'ai dû réaliser un model d'intelligence artificielle qui détecte un chien ou chat sur une photo.",
 			"Pour ce model, j'ai utilisé Pandas, Tensorflow, Numpy, Pillow, OpenCV et Matplotlib.",
-			"Ce model fut réalisé et entraîner en 3 semaines. L'entraînement de mon model se fait en local et non pas grâce au service Azure.",
+			"Ce model fut réalisé et entraîné en 3 semaines. L'entraînement de mon model se fait en local et non pas grâce au service Azure.",
 		],
 	},
 	{
@@ -260,7 +260,7 @@ const projects = [
 		id: 5,
 		name: "Stream Subtitles in real time",
 		description:
-			"Un outil de génération de soustitres en temps reel pour les streams afin d'inclure une plus large communauté.",
+			"Un outil de génération de sous-titres en temps reel pour les streams afin d'inclure une plus large communauté.",
 		tags: [
 			{
 				name: "Tailwind",
