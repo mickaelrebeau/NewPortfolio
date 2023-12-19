@@ -83,7 +83,7 @@ export const Works = () => {
 				profil Github pour en voir plus.
 			</motion.p>
 
-			<div className="mt-10 p-8 grid grid-cols-1 lg:grid-cols-2 gap-8 overflow-x-hiden">
+			<div className="mt-10 p-8 grid grid-cols-1 lg:grid-cols-2 gap-8 overflow-x-hidden">
 				{projects.map((project) => (
 					<ProjectCard key={project.name} {...project} />
 				))}
