@@ -263,27 +263,19 @@ const projects = [
 			"Un outil de génération de sous-titres en temps reel pour les streams afin d'inclure une plus large communauté.",
 		tags: [
 			{
-				name: "Tailwind",
+				name: "Html",
 				color: "text-white",
 			},
 			{
-				name: "Shadcn-ui",
+				name: "Css",
 				color: "text-white",
 			},
 			{
-				name: "React",
+				name: "Javascript",
 				color: "text-white",
 			},
 			{
-				name: "Vite",
-				color: "text-white",
-			},
-			{
-				name: "NestJs",
-				color: "text-white",
-			},
-			{
-				name: "Postgres",
+				name: "Python",
 				color: "text-white",
 			},
 		],
