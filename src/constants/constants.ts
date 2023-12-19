@@ -127,7 +127,7 @@ const projects = [
 				color: "text-white",
 			},
 			{
-				name: "Shadcs-ui",
+				name: "Shadcn-ui",
 				color: "text-white",
 			},
 			{
@@ -191,7 +191,7 @@ const projects = [
 				color: "text-white",
 			},
 			{
-				name: "Shadcs-ui",
+				name: "Shadcn-ui",
 				color: "text-white",
 			},
 			{
@@ -225,7 +225,7 @@ const projects = [
 				color: "text-white",
 			},
 			{
-				name: "Shadcs-ui",
+				name: "Shadcn-ui",
 				color: "text-white",
 			},
 			{
@@ -267,7 +267,7 @@ const projects = [
 				color: "text-white",
 			},
 			{
-				name: "Shadcs-ui",
+				name: "Shadcn-ui",
 				color: "text-white",
 			},
 			{

@@ -55,6 +55,7 @@ export const ComputersCanvas = () => {
 		>
 			<Suspense fallback={<Loader />}>
 				<OrbitControls
+					mouseButtons={{ LEFT: 0, MIDDLE: 0, RIGHT: 0 }}
 					enableZoom={false}
 					maxPolarAngle={Math.PI / 2}
 					minPolarAngle={Math.PI / 2}
