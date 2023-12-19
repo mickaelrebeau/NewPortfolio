@@ -212,7 +212,7 @@ const projects = [
 			},
 		],
 		image: note,
-		source_code_link: "https://github.com/mickaelrebeau/NoteApp",
+		source_code_link: "https://note-app-mike-dreeman.vercel.app/",
 	},
 	{
 		id: 4,
@@ -254,7 +254,7 @@ const projects = [
 			},
 		],
 		image: admin,
-		source_code_link: "https://github.com/mickaelrebeau/CRM-Dashboard",
+		source_code_link: "https://crm-dashboard-mike-dreeman.vercel.app/",
 	},
 	{
 		id: 5,
