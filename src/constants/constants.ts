@@ -85,7 +85,7 @@ const experiences = [
 			"Au sein d'une équipe de 4 développeurs, j'ai participé à concevoir et développer une plateforme de partage de données personnelles.",
 			"Ce projet, que nous avons nommé LP-LOL, en référence au jeu culte League of Legends, est développé dans un cadre microservices. ",
 			"Mes missions au sein de ce projet ont été la mise en place de l’authentification et de la gestion des profils utilisateurs, la réalisation de la maquette et le prototype du projet, la réalisation des interfaces d'authentification de la plateforme et la réalisation des interfaces d'authentification sur la version mobile de la plateforme.",
-			"Stack: Bootstrap | React | Ionic | NestJs | Fatsify | Nats | Redis | MongoDB",
+			"Stack: Bootstrap | React | Ionic | NestJs | Fastify | Nats | Redis | MongoDB",
 		],
 	},
 	{
