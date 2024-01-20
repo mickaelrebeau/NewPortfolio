@@ -21,7 +21,7 @@ export const Hero = () => {
 					</p>
 					<div className="mt-5 flex gap-5 z-50">
 						<a
-							className="px-6 py-3 rounded-sm border border-fuchsia-600 cursor-pointer hover:bg-fuchsia-600  hover:shadow-xl hover:shadow-pink-300/20"
+							className="px-6 py-3 rounded-sm border border-fuchsia-600 cursor-pointer hover:bg-fuchsia-600  hover:shadow-xl hover:shadow-pink-300/20 transition"
 							href="https://www.linkedin.com/in/mickael-r%C3%A9beau/"
 							target="_blank"
 							rel="noreferrer"
@@ -29,7 +29,7 @@ export const Hero = () => {
 							Linkedin
 						</a>
 						<a
-							className="px-6 py-3 rounded-sm border border-fuchsia-600 cursor-pointer hover:bg-fuchsia-600  hover:shadow-xl hover:shadow-pink-300/20"
+							className="px-6 py-3 rounded-sm border border-fuchsia-600 cursor-pointer hover:bg-fuchsia-600  hover:shadow-xl hover:shadow-pink-300/20 transition"
 							href="https://github.com/mickaelrebeau"
 							target="_blank"
 							rel="noreferrer"
@@ -43,9 +43,12 @@ export const Hero = () => {
 			<ComputersCanvas />
 
 			<div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-				<a href="#about">
+				<a
+					href="#about"
+					className="w-[40px] h-[70px] rounded-3xl border-2 border-fuchsia-400 bg-fuchsia-400 flex justify-end items-end pt-2"
+				>
 					<span className="sr-only">Flêche vers le bas</span>
-					<MoveDown className="w-10 h-10 text-fuchsia-400 hover:text-pink-300 animate-bounce" />
+					<MoveDown className="w-full h-full text-black hover:text-white transition animate-bounce" />
 				</a>
 			</div>
 		</section>

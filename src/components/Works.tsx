@@ -61,7 +61,7 @@ const ProjectCard = ({
 
 export const Works = () => {
 	return (
-		<section className="p-4 mt-20">
+		<section className="p-4 mt-20 max-w-4xl mx-auto">
 			<span className="hash-span" id="work">
 				&nbsp;
 			</span>
@@ -75,7 +75,7 @@ export const Works = () => {
 
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
-				className="mt-4 text-slate-400 text-[17px] max-w-3xl leading-[30px]"
+				className="mt-4 text-slate-400 text-[20px] max-w-4xl leading-[30px]"
 			>
 				Vous retrouverez ici une liste non exaustive des projets que j'ai pu
 				concevoir. Ce sont les projets que je préfère et qui mettent en valeur

@@ -29,7 +29,7 @@ function Layout() {
 				<Hero />
 			</div>
 
-			<section className="sm:px-16 px-6 sm:py-16 py-10 max-w-5xl mx-auto relative z-0">
+			<section className="sm:px-16 px-6 sm:py-16 py-10 max-w-[1200px] mx-auto relative z-0">
 				<motion.section
 					variants={staggerContainer(0.5, 0.5)}
 					initial="hidden"

@@ -21,7 +21,7 @@ export const Navbar = () => {
 					onClick={handleClick}
 				>
 					<img src={logo} alt="logo" className="w-10" />
-					<p className="text-white text-[18px] font-semibold hover:text-pink-300">
+					<p className="text-white text-[18px] font-semibold hover:text-pink-300 transition">
 						Mickael Rébeau
 					</p>
 				</Link>
@@ -29,7 +29,7 @@ export const Navbar = () => {
 					{navLinks.map((nav, index) => (
 						<li
 							key={nav.id}
-							className={`font-poppins font-medium cursor-pointer text-[16px] hover:text-pink-300 ${
+							className={`font-poppins font-medium cursor-pointer text-[16px] hover:text-pink-300 transition ${
 								active === nav.title ? "text-fuchsia-400" : "text-white"
 							} ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
 							onClick={() => setActive(nav.title)}
@@ -55,7 +55,7 @@ export const Navbar = () => {
 							{navLinks.map((nav, index) => (
 								<li
 									key={nav.id}
-									className={`font-poppins font-medium cursor-pointer text-[16px] hover:text-pink-300 ${
+									className={`font-poppins font-medium cursor-pointer text-[16px] hover:text-pink-300 transition ${
 										active === nav.title ? "text-fuchsia-400" : "text-white"
 									} ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
 									onClick={() => {

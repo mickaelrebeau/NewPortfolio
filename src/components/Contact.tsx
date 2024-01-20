@@ -8,18 +8,21 @@ export const Contact = () => {
 				&nbsp;
 			</span>
 
-			<div className="p-10 w-[90%] md:w-full min-w-[300px] max-w-[800px] md:h-[500px] bg-fuchsia-600/10 backdrop-blur-[2px] rounded-xl border border-fuchsia-600/50 flex flex-col justify-between">
+			<div className="p-10 w-[90%] md:w-full min-w-[300px] max-w-[800px] md:h-[350px] bg-fuchsia-600/10 backdrop-blur-[2px] rounded-xl border border-fuchsia-600/50 flex flex-col justify-between">
 				<div className="flex flex-col gap-3">
-					<h2 className="text-6xl font-semibold text-white">
-						Contact
-					</h2>
+					<h2 className="text-6xl font-semibold text-white">Contact</h2>
 
 					<p className="mt-5 text-xl text-slate-400">
 						N'hésitez pas à me contacter pour tout projet. N'oubliez pas de me
 						suivre sur Instagram et Twitch également.
 					</p>
-					<p className="mt-5 text-xl text-slate-400">
-						Email : rebau.mickael@gmail.com
+					<p className="mt-5 text-xl text-white-100">
+						<a
+							href="mailto:rebeau.mickael@gmail.com"
+							className="text-decoration-none hover:text-fuchsia-400 transition"
+						>
+							Email : rebeau.mickael@gmail.com
+						</a>
 					</p>
 				</div>
 

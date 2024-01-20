@@ -52,7 +52,7 @@ export const About = () => {
 
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
-				className="mt-4 text-slate-400 text-[17px] max-w-3xl leading-[30px]"
+				className="mt-4 text-slate-400 text-[20px] max-w-4xl leading-[30px]"
 			>
 				Passionné depuis mes 14 ans par le monde de l'informatique, je suis
 				aujourd'hui un développeur évoluant principalement dans l'écosystème
