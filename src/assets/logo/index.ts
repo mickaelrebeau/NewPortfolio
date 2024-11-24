@@ -11,6 +11,7 @@ import twitch from './logo_twitch.png'
 import linkedin from './logo_linkedin.png'
 import insta from './logo_instagram.png'
 import notion from './logo_notion.png'
+import vue from './logo_vue.png'
 
 export {
   react,
@@ -25,5 +26,6 @@ export {
   twitch,
   linkedin,
   insta,
-  notion
+  notion,
+  vue
 }

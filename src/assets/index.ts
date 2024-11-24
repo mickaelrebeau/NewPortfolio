@@ -9,6 +9,7 @@ import twitch from "./twitch.svg";
 
 import alt from "./experience/alt-logo.jpg";
 import pollen from "./experience/pollen-logo.jpg";
+import bloomind from "./experience/bloomind-logo.png";
 
 export {
   logo,
@@ -20,4 +21,5 @@ export {
   front,
   server,
   twitch,
+  bloomind,
 };

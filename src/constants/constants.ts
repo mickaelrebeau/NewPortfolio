@@ -1,4 +1,4 @@
-import { bootstrap, django, mongo, nest, postgre, python, react, tailwind } from "@/assets/logo";
+import { django, mongo, nest, postgre, python, react, tailwind, vue } from "@/assets/logo";
 import {
 	front,
 	server,
@@ -6,8 +6,9 @@ import {
 	logo,
 	alt,
 	pollen,
+	bloomind,
 } from "../assets";
-import { admin, mate, note, text, todo } from "@/assets/projects";
+import { bolt, cod, note, text } from "@/assets/projects";
 
 export const navLinks = [
 	{
@@ -41,12 +42,12 @@ const services = [
 
 const technologies = [
 	{
-		name: "Bootstrap",
-		icon: bootstrap,
-	},
-	{
 		name: "Tailwind",
 		icon: tailwind,
+	},
+	{
+		name: "Vue JS",
+		icon: vue,
 	},
 	{
 		name: "React JS",
@@ -75,6 +76,16 @@ const technologies = [
 ];
 
 const experiences = [
+	{
+		title: "Consultant",
+		company_name: "Bloomind",
+		icon: bloomind,
+		iconBg: "#fff",
+		date: "Mars 2024 - Current",
+		points: [
+			"Au sein de cette entreprise, mes compétences en tant que développeur fullstack dans un environnement Vue Js et Python sont mise à disposition d'un client.",
+		],
+	},
 	{
 		title: "Concepteur et développeur d'applications",
 		company_name: "Alt | Incubateur Tech | Formation développeur web",
@@ -118,70 +129,68 @@ const experiences = [
 const projects = [
 	{
 		id: 1,
-		name: "React Todo App",
+		name: "Clash of Devs",
 		description:
-			"Une simple Todo App pour ne rien oublier. Accessible à tout le monde. C'est une application qui va vous aider à garder en tête l'état d'avancement de vos tâches.",
+			"Ma contribution au concours Clash of Devs organiser par Maislina et LLCoolChris.",
 		tags: [
 			{
-				name: "Tailwind",
+				name: "Vue JS",
 				color: "text-white",
 			},
 			{
-				name: "Shadcn-ui",
-				color: "text-white",
-			},
-			{
-				name: "React",
-				color: "text-white",
-			},
-			{
-				name: "Vite",
-				color: "text-white",
-			},
-			{
-				name: "NestJs",
-				color: "text-white",
-			},
-			{
-				name: "Postgres",
+				name: "Tailwind CSS",
 				color: "text-white",
 			},
 		],
-		image: todo,
-		source_code_link: "https://todoapp-mike.vercel.app/",
+		image: cod,
+		source_code_link: "https://mike-dreeman-clash-of-dev.vercel.app/",
 	},
 	{
 		id: 2,
-		name: "MusicMate",
+		name: "Stream Subtitles in real time",
+		description:
+			"Un outil de génération de sous-titres en temps reel pour les streams afin d'inclure une plus large communauté.",
+		tags: [
+			{
+				name: "Html",
+				color: "text-white",
+			},
+			{
+				name: "Css",
+				color: "text-white",
+			},
+			{
+				name: "Javascript",
+				color: "text-white",
+			},
+			{
+				name: "Python",
+				color: "text-white",
+			},
+		],
+		image: text,
+		source_code_link: "https://github.com/mickaelrebeau/Live-Subtitle-Whisper",
+	},
+	{
+		id: 3,
+		name: "Bolt - MusicMate",
 		description:
 			"Découvre de nouvelles musiques selon tes goûts préférés. Grâce à l'api de spotify nous retrouvons de nouvelles musiques facilement.",
 		tags: [
 			{
-				name: "Tailwind",
+				name: "Vue JS",
 				color: "text-white",
 			},
 			{
-				name: "React",
-				color: "text-white",
-			},
-			{
-				name: "Vite",
-				color: "text-white",
-			},
-			{
-				name: "NestJs",
-				color: "text-white",
-			},
-			{
-				name: "Postgres",
+				name: "Tailwind Css",
 				color: "text-white",
 			},
 		],
-		image: mate,
-		source_code_link: "https://musicmate.vercel.app/",
+		image: bolt,
+		source_code_link: "https://bolt-music-mate.vercel.app/",
 	},
 	{
-		id: 3,
+		id: 4,
 		name: "Note App",
 		description:
 			"Une application de prise de notes où vos fichiers seront également stockés dans une base de données.",
@@ -213,74 +222,6 @@ const projects = [
 		],
 		image: note,
 		source_code_link: "https://note-app-mike-dreeman.vercel.app/",
-	},
-	{
-		id: 4,
-		name: "CRM Dashboard",
-		description:
-			"Un CRM Dashboard pour une application de gestion de clients. Ici, nous retrouvons le graphique du taux de réponses aux messages/emails envoyés.",
-		tags: [
-			{
-				name: "Tailwind",
-				color: "text-white",
-			},
-			{
-				name: "Shadcn-ui",
-				color: "text-white",
-			},
-			{
-				name: "React",
-				color: "text-white",
-			},
-			{
-				name: "Vite",
-				color: "text-white",
-			},
-			{
-				name: "NestJs",
-				color: "text-white",
-			},
-			{
-				name: "GraphQL",
-				color: "text-white",
-			},
-			{
-				name: "Hasura",
-				color: "text-white",
-			},
-			{
-				name: "Postgres",
-				color: "text-white",
-			},
-		],
-		image: admin,
-		source_code_link: "https://crm-dashboard-mike-dreeman.vercel.app/",
-	},
-	{
-		id: 5,
-		name: "Stream Subtitles in real time",
-		description:
-			"Un outil de génération de sous-titres en temps reel pour les streams afin d'inclure une plus large communauté.",
-		tags: [
-			{
-				name: "Html",
-				color: "text-white",
-			},
-			{
-				name: "Css",
-				color: "text-white",
-			},
-			{
-				name: "Javascript",
-				color: "text-white",
-			},
-			{
-				name: "Python",
-				color: "text-white",
-			},
-		],
-		image: text,
-		source_code_link: "https://github.com/mickaelrebeau/Live-Subtitle-Whisper",
 	},
 ];
 
