@@ -32,6 +32,8 @@ const ExperienceCard = ({
 			dateClassName="lg:mx-3"
 			iconStyle={{
 				boxShadow: "0px 0px 0px 3px #c026d3",
+				backgroundColor: experience.iconBg,
+				padding: "3px",
 			}}
 			icon={
 				<div className="flex justify-center items-center w-full h-full">
