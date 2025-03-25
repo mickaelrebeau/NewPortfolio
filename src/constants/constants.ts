@@ -7,8 +7,9 @@ import {
 	alt,
 	pollen,
 	bloomind,
-} from "../assets";
-import { bolt, cod, note, text } from "@/assets/projects";
+	plg,
+} from "@/assets";
+import { bolt, car, cod, note, text } from "@/assets/projects";
 
 export const navLinks = [
 	{
@@ -77,11 +78,21 @@ const technologies = [
 
 const experiences = [
 	{
+		title: "Innovative Software Solutions Associate",
+		company_name: "ProductLife Group",
+		icon: plg,
+		iconBg: "#fff",
+		date: "Mars 2025 - Current",
+		points: [
+			"En tant que développeur fullstack, je suis chargé de concevoir et développer des solutions web et logicielles innovantes pour répondre aux besoins des clients.",
+		],
+	},
+	{
 		title: "Consultant",
 		company_name: "Bloomind",
 		icon: bloomind,
 		iconBg: "#fff",
-		date: "Mars 2024 - Current",
+		date: "Mars 2024 - Mars 2025",
 		points: [
 			"Au sein de cette entreprise, mes compétences en tant que développeur fullstack dans un environnement Vue Js et Python sont mise à disposition d'un client.",
 		],
@@ -127,102 +138,119 @@ const experiences = [
 ];
 
 const projects = [
-	{
-		id: 1,
-		name: "Clash of Devs",
-		description:
-			"Ma contribution au concours Clash of Devs organiser par Maislina et LLCoolChris.",
-		tags: [
-			{
-				name: "Vue JS",
-				color: "text-white",
-			},
-			{
-				name: "Tailwind CSS",
-				color: "text-white",
-			},
-		],
-		image: cod,
-		source_code_link: "https://mike-dreeman-clash-of-dev.vercel.app/",
-	},
-	{
-		id: 2,
-		name: "Stream Subtitles in real time",
-		description:
-			"Un outil de génération de sous-titres en temps reel pour les streams afin d'inclure une plus large communauté.",
-		tags: [
-			{
-				name: "Html",
-				color: "text-white",
-			},
-			{
-				name: "Css",
-				color: "text-white",
-			},
-			{
-				name: "Javascript",
-				color: "text-white",
-			},
-			{
-				name: "Python",
-				color: "text-white",
-			},
-		],
-		image: text,
-		source_code_link: "https://github.com/mickaelrebeau/Live-Subtitle-Whisper",
-	},
-	{
-		id: 3,
-		name: "Bolt - MusicMate",
-		description:
-			"Découvre de nouvelles musiques selon tes goûts préférés. Grâce à l'api de spotify nous retrouvons de nouvelles musiques facilement.",
-		tags: [
-			{
-				name: "Vue JS",
-				color: "text-white",
-			},
-			{
-				name: "Tailwind Css",
-				color: "text-white",
-			},
-		],
-		image: bolt,
-		source_code_link: "https://bolt-music-mate.vercel.app/",
-	},
-	{
-		id: 4,
-		name: "Note App",
-		description:
-			"Une application de prise de notes où vos fichiers seront également stockés dans une base de données.",
-		tags: [
-			{
-				name: "Tailwind",
-				color: "text-white",
-			},
-			{
-				name: "Shadcn-ui",
-				color: "text-white",
-			},
-			{
-				name: "React",
-				color: "text-white",
-			},
-			{
-				name: "Vite",
-				color: "text-white",
-			},
-			{
-				name: "NestJs",
-				color: "text-white",
-			},
-			{
-				name: "Postgres",
-				color: "text-white",
-			},
-		],
-		image: note,
-		source_code_link: "https://note-app-mike-dreeman.vercel.app/",
-	},
+  {
+    id: 1,
+    name: "Clash of Devs",
+    description:
+      "Ma contribution au concours Clash of Devs organiser par Maislina et LLCoolChris.",
+    tags: [
+      {
+        name: "Vue JS",
+        color: "text-white",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "text-white",
+      },
+    ],
+    image: cod,
+    source_code_link: "https://mike-dreeman-clash-of-dev.vercel.app/",
+  },
+  {
+    id: 2,
+    name: "Vintage Cars",
+    description: "Un site musée de voitures anciennes.",
+    tags: [
+      {
+        name: "React JS",
+        color: "text-white",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "text-white",
+      },
+    ],
+    image: car,
+    source_code_link: "https://mike-cars-landing-page.vercel.app/",
+  },
+  {
+    id: 3,
+    name: "Stream Subtitles in real time",
+    description:
+      "Un outil de génération de sous-titres en temps reel pour les streams afin d'inclure une plus large communauté.",
+    tags: [
+      {
+        name: "Html",
+        color: "text-white",
+      },
+      {
+        name: "Css",
+        color: "text-white",
+      },
+      {
+        name: "Javascript",
+        color: "text-white",
+      },
+      {
+        name: "Python",
+        color: "text-white",
+      },
+    ],
+    image: text,
+    source_code_link: "https://github.com/mickaelrebeau/Live-Subtitle-Whisper",
+  },
+  {
+    id: 4,
+    name: "Bolt - MusicMate",
+    description:
+      "Découvre de nouvelles musiques selon tes goûts préférés. Grâce à l'api de spotify nous retrouvons de nouvelles musiques facilement.",
+    tags: [
+      {
+        name: "Vue JS",
+        color: "text-white",
+      },
+      {
+        name: "Tailwind Css",
+        color: "text-white",
+      },
+    ],
+    image: bolt,
+    source_code_link: "https://bolt-music-mate.vercel.app/",
+  },
+  {
+    id: 5,
+    name: "Note App",
+    description:
+      "Une application de prise de notes où vos fichiers seront également stockés dans une base de données.",
+    tags: [
+      {
+        name: "Tailwind",
+        color: "text-white",
+      },
+      {
+        name: "Shadcn-ui",
+        color: "text-white",
+      },
+      {
+        name: "React",
+        color: "text-white",
+      },
+      {
+        name: "Vite",
+        color: "text-white",
+      },
+      {
+        name: "NestJs",
+        color: "text-white",
+      },
+      {
+        name: "Postgres",
+        color: "text-white",
+      },
+    ],
+    image: note,
+    source_code_link: "https://note-app-mike-dreeman.vercel.app/",
+  },
 ];
 
 export { services, technologies, experiences, projects };
