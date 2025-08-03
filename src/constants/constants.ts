@@ -9,7 +9,7 @@ import {
 	bloomind,
 	plg,
 } from "@/assets";
-import { bolt, car, cod, note, text } from "@/assets/projects";
+import { bolt, car, cod, cvOffer, helwena, musicmate, note, text } from "@/assets/projects";
 
 export const navLinks = [
 	{
@@ -139,6 +139,31 @@ const experiences = [
 
 const projects = [
   {
+    id: 0,
+    name: "CV Offer Comparer",
+    description: "Comparateur de CVs à une offre d'emploi.",
+    tags: [
+      {
+        name: "FastAPI",
+        color: "text-white",
+      },
+      {
+        name: "Gemini API",
+        color: "text-white",
+      },
+      {
+        name: "Vue JS",
+        color: "text-white",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "text-white",
+      },
+    ],
+    image: cvOffer,
+    source_code_link: "https://cv-offer-comparer-mike-dreeman.vercel.app/",
+  },
+  {
     id: 1,
     name: "Clash of Devs",
     description:
@@ -158,6 +183,32 @@ const projects = [
   },
   {
     id: 2,
+    name: "MusicMate",
+    description:
+      "Découvre de nouvelles musiques selon tes goûts préférés. Grâce à l'api de spotify nous retrouvons de nouvelles musiques facilement.",
+    tags: [
+      {
+        name: "Nest Js",
+        color: "text-white",
+      },
+      {
+        name: "TypeORM",
+        color: "text-white",
+      },
+      {
+        name: "React JS",
+        color: "text-white",
+      },
+      {
+        name: "Tailwind Css",
+        color: "text-white",
+      },
+    ],
+    image: musicmate,
+    source_code_link: "https://musicmate.vercel.app/",
+  },
+  {
+    id: 3,
     name: "Vintage Cars",
     description: "Un site musée de voitures anciennes.",
     tags: [
@@ -174,7 +225,25 @@ const projects = [
     source_code_link: "https://mike-cars-landing-page.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
+    name: "Design to code",
+    description:
+      "Challenge de design to code. Un design par jour que je code le lendemain.",
+    tags: [
+      {
+        name: "Html",
+        color: "text-white",
+      },
+      {
+        name: "Css",
+        color: "text-white",
+      },
+    ],
+    image: helwena,
+    source_code_link: "https://mickaelrebeau.github.io/Helwena-Design/",
+  },
+  {
+    id: 5,
     name: "Stream Subtitles in real time",
     description:
       "Un outil de génération de sous-titres en temps reel pour les streams afin d'inclure une plus large communauté.",
@@ -198,58 +267,6 @@ const projects = [
     ],
     image: text,
     source_code_link: "https://github.com/mickaelrebeau/Live-Subtitle-Whisper",
-  },
-  {
-    id: 4,
-    name: "Bolt - MusicMate",
-    description:
-      "Découvre de nouvelles musiques selon tes goûts préférés. Grâce à l'api de spotify nous retrouvons de nouvelles musiques facilement.",
-    tags: [
-      {
-        name: "Vue JS",
-        color: "text-white",
-      },
-      {
-        name: "Tailwind Css",
-        color: "text-white",
-      },
-    ],
-    image: bolt,
-    source_code_link: "https://bolt-music-mate.vercel.app/",
-  },
-  {
-    id: 5,
-    name: "Note App",
-    description:
-      "Une application de prise de notes où vos fichiers seront également stockés dans une base de données.",
-    tags: [
-      {
-        name: "Tailwind",
-        color: "text-white",
-      },
-      {
-        name: "Shadcn-ui",
-        color: "text-white",
-      },
-      {
-        name: "React",
-        color: "text-white",
-      },
-      {
-        name: "Vite",
-        color: "text-white",
-      },
-      {
-        name: "NestJs",
-        color: "text-white",
-      },
-      {
-        name: "Postgres",
-        color: "text-white",
-      },
-    ],
-    image: note,
-    source_code_link: "https://note-app-mike-dreeman.vercel.app/",
   },
 ];
 
