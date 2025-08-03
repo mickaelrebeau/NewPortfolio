@@ -6,5 +6,20 @@ import admin from './admin-panel.png'
 import cod from './cod.png'
 import bolt from './boltmm.png'
 import car from './vintage-car.png'
+import musicmate from './musicmate.png'
+import cvOffer from "./cv-offer-comparer.png";
+import helwena from "./helwena.png";
 
-export { todo, mate, note, text, admin, cod, bolt, car }
+export {
+  todo,
+  mate,
+  note,
+  text,
+  admin,
+  cod,
+  bolt,
+  car,
+  musicmate,
+  cvOffer,
+  helwena,
+};
